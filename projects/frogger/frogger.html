@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frogger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+       
+<body>
+    <h3>Projects</h3>    
+    <div class= 'navbar'>
+        <div class="navbar-content">
+            <a href='../jubilee-project/jubilee.html'>Jubilee Project</a>
+            <a href='../rogue-project/rogue.html'>Rogue Project</a>
+            <a href='../recipe-project/recipe.html'>Recipe Project</a>
+            <a href='../memory-game/memory.html'>Memory Game</a>
+            <a href='../for-the-love-of-dogs/dogs.html'>Dog Lovers</a>
+            <a href= '../../home.html'>Home</a>
+        </div>       
+    </div> 
+     
+    <header> 
+        <div class= 'title-animation'>
+            <div class= 'title'>Fro<span>ger</span></div>
+            <img src="../frogger/images/frog.gif" alt="jumping frog"/> 
+        </div>
+    </header>  
+   
+        <div class="game-stats">
+            <div class="score">
+                Score:
+                <span></span>
+                points
+            </div>
+            <div class="lives">
+                Lives left:
+                <span></span>
+            </div>
+        </div>
+        <div id="modal-1" class="modal animate-opacity">
+            <div class="xsmodal-content">
+               <div class="xsmodal-inner">
+                  <span onclick="document.getElementById('modal-1').style.display='none'" class="modal-close"></span>
+                  <h1>mobile and tablet version coming soon!</h1>
+               </div> 
+            </div>
+        </div>     
+    <script src="resources.js"></script>
+    <script src="app.js"></script>
+    <script src="engine.js"></script>
+    
+</body>
+</html>

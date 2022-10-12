@@ -1,0 +1,660 @@
+
+/*********************************************** HOMEPAGE STYLES *******************************************/
+
+#home-body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+}    
+
+/***** Header Section *****/
+
+.home-bkg-scene{
+    height: 100%;
+    background: url("../images/code-shadow.gif");
+    background-size: cover; 
+    background-position: center;
+}
+
+#home-header h1 {
+   height: 156px; 
+   font-family: 'Lora', serif;
+    font-size: 72px;
+    font-weight: lighter;
+    padding-top: 197px;
+    color:rgb(213, 183, 238);
+}
+
+#home-header h1 span{    
+    color: #dd0e6ff1;
+}
+
+/***** HOME WORK SECTION *****/
+
+#home-work .full-width{
+   
+   margin-right: 70px;
+   padding-top: 60px;
+}
+
+#home-work img{
+    height: 77px;
+    width: 86px;
+    margin-right: 70px;
+}    
+
+#home-work h3{
+    color: rgb(213, 183, 238);
+    font-weight: lighter;
+}
+
+#home-work a{
+    text-decoration: none;
+}
+
+ #third-width{
+     text-align: center;
+ }   
+
+/*********************************************** JUBILEE PROJECT STYLES *******************************************/
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****************/
+
+#jubilee-body{
+    font-family: 'Source Sans Pro';
+    color: #2b2b2b;
+}
+
+/***** HEADER SECTION *****/
+
+#jubilee-header {
+    height: 800px;
+    background: url("../images/full-background.png");
+    background-size: cover; 
+}
+
+#jubilee-header h1 {
+    padding: 45px 0 65px 25px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+}
+
+#jubilee-header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+
+#jubilee-header h2 span {
+    color:#2b2b2b;
+}
+
+/****** NAVIGATION BAR *****/
+
+.jubilee-navbar {
+    padding-top: 79px;
+}
+
+.jubilee-navbar a {
+    float: left;
+    color: #9b9b9b;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 42px; 
+}
+
+.jubilee-dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.jubilee-dropdown .jubilee-dropbtn {
+    font-size: 18px;  
+    border: none;
+    color: #9b9b9b;
+    padding-left: 42px; 
+    text-transform: uppercase;
+    background: none;
+}
+
+.jubilee-dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+    
+}
+
+.jubilee-dropdown-content a {
+    float: none;
+    color: #9b9b9b;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+ 
+}
+
+.jubilee-dropdown:hover .jubilee-dropdown-content {
+    display: block;
+    
+}
+
+/***** ABOUT SECTION *****/
+
+#jubilee-about .full-width {
+    padding: 80px 0;
+}
+
+#jubilee-about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    color: #2b2b2b;
+    padding-left: 50px;
+}
+ 
+#jubilee-about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 51px;
+}
+
+/***** WORK SECTION *****/
+
+#jubilee-work{
+    background: #f9ceb7;
+    text-align: center;
+}
+
+#jubilee-work .full-width {
+    padding: 115px 0;
+}
+ 
+#jubilee-work-img {
+    padding-bottom: 30px;
+}
+
+#jubilee-work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+}
+ 
+#jubilee-work p {
+    font-family: 'Lora', Serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}  
+
+/***** CONTACT SECTION *****/
+
+#jubilee-contact{
+    background: #EBEBEB;
+}
+
+#jubilee-contact .full-width {
+    padding: 110px 0;
+}
+
+#jubilee-contact-img  {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+#jubilee-contact h2,  #jubilee-email-header,  #jubilee-socialmedia-header, #jubilee-contact ul {
+    padding-left: 115px;
+}
+#jubilee-contact #jubilee-envelope {
+    padding: 0 10px 0 115px;
+}
+
+#jubilee-contact h2 {
+    font-family: 'Lora', Serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#jubilee-contact #jubilee-email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 -22px 0;
+}
+
+#jubilee-contact #jubilee-socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#jubilee-contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}    
+
+#jubilee-contact ul {
+    list-style: none;
+}
+
+#jubilee-contact ul li {
+    display: inline-block;
+}
+
+#jubilee-contact ul img {
+    padding-right: 48px;
+}
+
+
+/*********************************************** ROGUE PROJECT STYLES *******************************************/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #2b2b2b;
+}
+
+.rogue-container{
+	margin: 40px;
+}
+
+/***** HEADER *****/
+
+#rogue-header span{
+    color: #77a466;
+    text-transform: uppercase;
+} 
+
+#rogue-header h1{
+   font-size: 30px;
+   text-transform: uppercase;
+   float: left;
+   margin-right: 100px;
+}
+
+.rogue-nav {
+    padding-top: 30px;
+    float: right;
+}
+
+.rogue-nav a {
+    float: left;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 42px; 
+}
+
+.rogue-dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.rogue-dropdown {
+    font-size: 18px;  
+    border: none;
+    color: #9b9b9b;
+    text-transform: uppercase;
+    background: none;
+}
+
+.rogue-dropdown-content {
+    display: none;
+    position: relative;
+    width: 160px;
+    background-color: white;
+    border: 2px  solid rgb(236, 235, 235);;
+    color: black;
+    padding-top: 60px;
+}
+
+.rogue-dropdown-content a {
+    float: none;
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    
+}
+
+.rogue-dropdown:hover .rogue-dropdown-content {
+    display: block;
+}
+
+/***** IMAGE *****/
+
+#rogue-image{
+    width: 100%;
+    height: auto;    
+    border-top: #77a466 3px solid;
+    border-bottom: #77a466 3px solid;
+}
+ 
+/***** ABOUT *****/
+
+#rogue-about h2 {
+    color: #77a466; 
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+#rogue-about p {
+    border-bottom: 1px solid rgb(236, 235, 235);
+    padding-bottom: 16px;
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-bottom: 0px;
+    width: 1306px;
+}
+
+/***** MENU *****/
+
+#rogue-menu ul  {
+    color:#77a466;
+    list-style-type: none;
+    padding-left: 0px; 
+    font-size: 16px;
+    line-height: 38px;
+    margin-top: 0px;
+}
+
+#rogue-menu, #rogue-review, #rogue-contact {
+   float: left;
+   padding-bottom: 15px;
+   padding-top: 15px;
+}
+
+#rogue-review, #rogue-contact {
+    padding-right: 124px;
+    padding-left: 18px;
+}
+
+#rogue-menu h3, #rogue-review h3, #rogue-contact h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+} 
+
+#rogue-review p, #rogue-contact address {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#rogue-review {
+    border-left: 1px solid rgb(236, 235, 235);
+	border-right: 1px solid rgb(236, 235, 235);
+}
+
+#rogue-footer h2{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#rogue-footer span{
+    color: #77a466; 
+    font-family: 'Galada', cursive;
+    font-weight: 100;
+    font-size: 15px;                                                                                                                                                                                                                                                              
+    line-height: 23px;
+    width: 35px;
+    height: 17px;
+    text-transform: none;
+}
+
+#rogue-footer {
+    clear:left;
+    border-top: 2px solid rgb(224, 224, 224); 
+    padding-top: 5px;
+    margin-right: 200px;
+}
+
+
+/*********************************************** RECIPE PROJECT STYLES *******************************************/
+
+
+#recipe-body{
+    background-color: #DAF7F6;
+    font-family:'Open Sans';
+    font-size: 12px;
+    line-height: 16px;
+    color: #3B3B3B;
+
+}
+
+#recipe-header{
+    background-color: #FFFFFF;
+    text-align: center;
+    
+}
+
+#recipe-header h1{
+    font-size: 48px;
+    display: inline-block;
+    font-weight: bold;
+    padding: 40px 0;
+	margin: 0;
+    text-transform: uppercase;
+    color: #F16059;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#recipe-header img{
+    margin-right: 16px;
+}
+
+#recipe-main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.card{
+    margin: 25px 0px;
+    overflow: auto;
+}
+
+.image{
+    float: left;
+    width: 500px;
+    height: 550px;
+}
+
+.recipe{ 
+    background: #FFFFFF;
+    float: left;
+    padding: 20px;
+    width: 500px;
+    height: 550px;
+    box-sizing: border-box;
+}
+
+#cookies .image{
+    background: url("../images/gluten-free-sugar-cookies.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+#pesto .image{
+    background: url("../images/nut-free-pesto.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+#salad .image{
+    background: url("../images/watermelon-salad.jpg");
+
+    background-size: cover; 
+    background-position: center;
+}
+
+.recipe h2{
+    color: #F16059;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-weight: bold;
+    line-height: 29px;
+} 
+
+.time{
+  margin-bottom: 20px;
+  border: 1px solid #3B3B3B;
+  overflow: auto;
+}
+
+.time div{
+    float: left;
+    padding-left: 6px;
+    width: 33.3333%;
+	box-sizing: border-box;
+	text-transform: uppercase;
+}
+
+.time .cook{
+    border-width: 0 1px;
+	border-style: solid;
+	border-color: #3B3B3B;
+}
+
+.time img {
+	margin-right: 5px;
+	vertical-align: middle;
+	width: 15px;
+	height: auto;
+}
+
+.time-details {
+	display: inline-block;
+}
+
+.time strong {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.columns{
+    overflow: auto;
+}
+
+.directions{
+    float: left;
+    width: 240px;
+}
+
+.ingredients{
+    float: left;
+    width: 205px;
+    margin-right: 15px;
+}
+
+.recipe h3{
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+    padding: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #F16059;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ingredients ul{
+    padding-left: 15px;
+    line-height: 24px;
+    list-style-type: square;
+}
+
+.directions ol{
+    padding-left: 15px;
+    line-height: 22px;  
+}
+
+/****** NAVIGATION BAR *****/
+
+.recipe-navbar {
+    background-color: #FFFFFF;
+    /*width: 1030px;*/
+    height: 22px;
+    padding-bottom: 14px;
+    padding-left: 650px;
+}
+
+.recipe-navbar a {
+    float: left;
+    color: #3B3B3B;;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18.3px;
+    padding-left: 42px; 
+    padding-top: 3px;
+}
+
+.recipe-dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.recipe-dropdown .recipe-dropbtn {
+    font-size: 18px;  
+    border: none;
+    color: #3B3B3B;;
+    padding-left: 42px; 
+    text-transform: uppercase;
+    background: none;
+}
+
+.recipe-dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #DAF7F6;
+}
+
+.recipe-dropdown-content a {
+    float: none;
+    color: #3B3B3B;;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.recipe-dropdown:hover .recipe-dropdown-content {
+    display: block;
+}

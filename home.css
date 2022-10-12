@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}  
+
+body{
+    background-color: #2B2948 !important;
+}
+
+h1{
+    font-family: 'Lora', serif !important;   
+}
+
+.navbarList{
+    color: #2B2948;
+}
+
+.navbar-brand{
+    color: #2B2948;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.main{
+    height: 92vh;
+}
+
+.main-Img{
+    width: 25vw;
+    height: 70vh;
+}
+
+.pinky{
+    font-family: 'Lora', serif;
+    color: #fd3293;
+}
+
+.page-footer{
+    background-color: #1b1a2e;
+}
+
+.main-btn{
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+    border-color: #fd3293 !important;
+    color: #fd3293 !important;
+    background: none !important;
+}
+
+.main-btn:hover{
+    background: #fd3293 !important;
+    border-color: #fd3293 !important;
+    color: #fff !important;
+}
+
+.cards-css{
+    margin-top: 5vw !important;
+    margin-bottom: 20vw !important;
+}
+
+.hero-section{
+    background-color: #fff;
+}
+
+.services{
+    width: 7vw;
+}
+
+.about-section{
+    background: url(./animations/code-shadow.gif);
+    background-repeat: no-repeat;
+    background-position: -106px 50%;
+}
+
+.monospace{
+    font-family: monospace !important;
+}
+
+.lora{
+    font-family: 'Lora';
+}
+
+.social-media{
+    width: 400px;
+}
+
+@media (max-width: 700px) {
+    .about-col img{
+        width: 15vw !important;
+    }
+
+    .about-col p{
+        font-size: 3vw !important;
+    }
+    
+    .about-section{
+        margin-top: 30vw !important;
+        margin-bottom: 30vw !important;
+    }
+    
+    .row .card-2{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+}
+
+@media (max-width: 420px) {
+    .about-txt{
+        font-size: 10vw !important;
+    }
+    
+    .social-media{
+        width: 300px;
+    }
+}

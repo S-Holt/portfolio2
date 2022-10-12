@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+        font-family: 'Source Sans Pro';
+  }
+  
+  body {
+        font-family: 'Source Sans Pro';
+        margin: 0;
+  }
+ 
+ /* Header style */
+ #header {
+    overflow: hidden;
+    padding: 20px 10px;
+    height: 800px;
+    background: url("../images/full-background.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;  
+  }
+  
+  /* Header links style */
+  #header a {
+    float: left;
+    color: #9b9b9b;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style for logo */
+  #header a.logo {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    color: #bbc085;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+
+  /* Style for page links*/
+  .header-right {
+    float: right;
+    text-transform: uppercase;
+    margin-right: 77px;
+
+  }
+  /* Style for projects link and dropdown links*/ 
+  .jubilee-dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.jubilee-dropdown{
+    font-size: 18px;  
+    border: none;
+    color: #9b9b9b;
+    text-transform: uppercase;
+    background: none;
+}
+
+.jubilee-dropdown-content {
+    display: none;
+    position: relative;
+    width: 160px;
+    box-shadow: inset -4px -2px 3px 0px rgb(0 0 0 / 20%);
+    margin-top: 40px;
+    background-color: #ebebeb;
+    height: 243px;
+    
+}
+
+.jubilee-dropdown-content a {
+    float: none;
+    color: #9b9b9b;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+ 
+}
+
+.jubilee-dropdown:hover .jubilee-dropdown-content {
+    display: block;
+}     
+
+#header h1{
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    float: left;
+    margin-left: 50px;
+    padding: 128px 180px 0 0;
+    }
+    
+/* Style for header */
+#header h1 span {
+    color:#2b2b2b;
+  }
+    
+/* #about column styles */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+   
+  }
+
+/* Clear floats after the columns */
+#about:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    
+.column h2{  
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    color: #2b2b2b;
+    padding-left: 50px;
+  }
+
+  .column p{
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 51px;
+}
+
+/* Styles for p in right #about column*/
+.position{
+    padding-top: 84px;
+}
+
+/* #work column styles */
+.column-work {
+    float: left;
+    width: 33.33%;
+    height: 486px;
+    padding: 70px 10px;
+    background: #f9ceb7;
+    text-align: center;
+  }
+
+#work:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+
+  .column-work h3{
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+  }
+
+  .column-work p{
+    font-family: 'Lora', Serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+  }  
+
+ /* All images in #work columns*/
+ .column-work img{
+    padding-bottom: 30px;
+  }
+
+ /* #contact column styles */
+.column-contact {
+    float: left;
+    width: 50%;
+    padding: 70px;
+    height: 486px;
+    background: #EBEBEB;
+
+  } 
+
+  /* Clear floats after the columns */
+  #contact:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Styles for image in left #contact column*/
+#working-woman{
+    border: 12px solid #ffffff;
+ }
+
+ /* Styles for right #contact column*/
+
+ .column-contact h2 {
+    font-family: 'Lora', Serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+
+#jubilee-email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+
+}
+
+.column-contact a{
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#jubilee-socialmedia-header{
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+}
+
+.column-contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.column-contact ul li {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+  .column-work{
+    height: 380px;
+    padding: 25px 10px;
+  }
+  .column-work img{
+    height: 71px;
+  }
+  .column-work h3{
+    font-size: 22px;
+  }
+  .column-work p{
+    font-size: 16px;
+  }
+  .header-right{ 
+    margin-right: 0;
+  }
+  .jubilee-dropdown-content{
+    height: 153px;
+    width: 141px;
+    box-shadow: inset -4px -2px 3px 0px rgb(0 0 0 / 20%);
+  }
+}   
+@media screen and (max-width: 375px) {
+  .column-work{
+    height: 380px;
+    padding: 25px 10px;
+  }
+  .column-work img{
+    height: 71px;
+  }
+  .column-work h3{
+    font-size: 22px;
+  }
+  .column-work p{
+    font-size: 16px;
+  }
+  #header a {
+    display: block;
+    line-height: 17px;
+    padding: 5px;
+    margin-top:9px;
+
+  }
+  .jubilee-dropdown-content{
+    height: 153px;
+    width: 141px;
+    box-shadow: inset -4px -2px 3px 0px rgb(0 0 0 / 20%);
+
+  }
+}
+@media screen and (max-width: 425px) {
+  .jubilee-dropdown-content{
+    height: 174px;
+    width: 155px; 
+    box-shadow: inset -4px -2px 3px 0px rgb(0 0 0 / 20%);
+ 
+  }
+}  
+@media screen and (max-width: 480px) {
+  #header{
+    width:100%;
+    height: auto;   
+  }
+  #header a.logo{
+    line-height: 34px;
+    margin: 0;
+    font-size: 25px;
+  }
+  #header a {
+    display: block;
+    line-height: 9px;
+  }
+  .header-right {
+    float: none;
+    margin-right: 152px;
+  }
+  #header h1{
+    font-size: 33px;
+    line-height: 50px;
+    padding: 42px 0 0 10px;
+    color: rgb(121, 120, 120);
+    margin: 0;
+  }
+  #header h1 span{
+    color:rgb(87, 85, 85)
+  }
+    .jubilee-dropdown-content{
+      height: 174px;
+      width: 155px; 
+      box-shadow: inset -4px -2px 3px 0px rgb(0 0 0 / 20%);
+    }  
+  .column{
+    float: none;
+    width: 100%;
+  }
+  .column h2{ 
+    font-size: 25px;
+    padding: 0;
+  }
+  .column p{
+    line-height: 25px;
+    padding: 0;
+  }
+  .column-work{
+    float: none;
+    width: 100%;
+  }
+  .column-contact{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  #working-woman{
+    width: 100%;
+    height: auto;
+  }
+  .column-contact ul li {
+    padding-right: 19px;
+  }
+  .column-contact {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  } 
+  .column-contact h2, #jubilee-email-header, 
+  .column-contact a,.column-contact ul,
+  #jubilee-socialmedia-header{
+    text-align: center;
+  }
+  .column-contact h2{
+  font-size: 30px;
+  }
+  #jubilee-email-header, .column-contact a, 
+  .column-contact ul, #jubilee-socialmedia-header {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-right {
+    float: left; 
+   /* margin-left: 45px; */
+  }  
+  .column-contact{
+    width: 100%;
+    text-align: center;
+  }
+  #header h1{
+    margin-top: 34px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  #header h1{
+    padding: 25px 47px 0 0;
+    margin-top: 2px;
+
+  }
+  .column-contact{
+    width: 100%;
+    text-align: center;
+  }
+  .column-contact ul{
+    padding-left: 40px;
+  }
+  .column-work{
+    padding: 53px 10px;
+  }
+}
