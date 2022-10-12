@@ -67,7 +67,7 @@
 }
 
 .dog-container {
-   margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   width: 100%;
   padding-left: 10%;
@@ -83,7 +83,10 @@
   animation: beat .32s infinite alternate;
   transform-origin: center;
 }
-
+.card-body{
+  text-align: center;
+  font-weight: bold;
+}
 @keyframes beat{
   to { transform: scale(.7); }
 }
